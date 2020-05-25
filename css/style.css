@@ -124,6 +124,10 @@
 			#post-4{top:-400px;left: 130px;}
 			.post-it{width: 30%; height: 30%; font-size: 15pt;}
 
+			#contatos iframe{width:100%;}
+			#contatos div{margin-left: 20px;padding: 5px}
+			#contatos div p{font-size: 12pt;text-indent: 10px}
+
 		}
 		/**************laptop**********************/		
 		@media screen and (min-width: 768px) and (max-width: 1024px) {
