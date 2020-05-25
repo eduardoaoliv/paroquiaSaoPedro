@@ -111,6 +111,9 @@
 			.post-it{width: 50%; height: 30%; font-size: 15pt;}
 		}
 
+		@media screen and (orientation:; landscape){
+				#endereco{display: none;}
+		}
 
 		/**************TABLET**********************/
 		@media screen and (min-width: 501px) and (max-width: 800px) {
