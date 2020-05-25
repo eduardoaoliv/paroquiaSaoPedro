@@ -56,15 +56,15 @@
 		 #quadro_avisos p{margin-left: 320px;margin-top: 0px;padding: 5px 5px 5px 5px;background-color: yellow;
 		 border: 5px solid black; text-align:left;width: 350px}
 		 #post-1{top:40px;left: 20px;font-family: 'Dancing Script', cursive;}/* fonte para post-it*/
-		 #post-2{top:-10px;left: 40px;font-family: 'Dancing Script', cursive;}/* fonte para post-it*/
-		 #post-3{top:-100px;left: 400px; font-family: 'Dancing Script', cursive;}		
-		 #post-4{top:-300px;left: 650px; font-family: 'Dancing Script', cursive;}
+		 #post-2{top:10px;left: 40px;font-family: 'Dancing Script', cursive;}/* fonte para post-it*/
+		 #post-3{top:-200px;left: 300px; font-family: 'Dancing Script', cursive;}		
+		 #post-4{top:-300px;left: 450px; font-family: 'Dancing Script', cursive;}
 
 		/*PAGINA_CONTATOS*/
-		 #contatos{margin-left: 20px;margin-right: 20px;margin-bottom: 20px;
-		 background-color: rgba(255,255,255,0.9);width: 800px}
-
+		#contatos div{margin-left: 0px;margin-bottom: 20px;}
+		#contatos div p{color: white; margin-left: -30px}
 		 /*PAGINA_HORARIOS*/
+		}
 		#horarios{flex: 1;padding: 5px 5px 5px 5px;align-self: center; background-color: rgba(128,128,128,0.7);
 		box-shadow: 10px 10px 100px 10px rgb(15,177,255); width: 60%; border: solid 1px rgb(15,177,255)}
 		
@@ -73,19 +73,28 @@
 		#horarios h3{font-size: 15pt; font-weight: bold;color: white}
 
 
-		 /*CELULAR*/
+		 /********************CELULAR********************/
 		@media screen and (min-width: 0px) and (max-width: 500px)  {
 			
 			body{background-color:black;width: 100%}
 			h1{font-size: 25pt}
-			a{font-size: 25pt; margin-left: -25px; padding: 10px}
+			a{font-size: 25pt; margin-left: -15px; padding: 10px}
 			img{width: 110%;}
 
-			.figuras{opacity: 1;}			
+			.figuras{opacity: 1;}
+
+
 			/*TEXTOS*/
 			.fixa{float: none;width: 91%;margin-left: 0%}
 			.textos{margin-right:0%;margin-left: 0%}
 			.p_textos{font-size: 15pt; margin-left: 10px;text-indent: 30px}
+
+			/*CONTATOS*/
+			#contatos iframe{width:100%;}
+			#contatos div{margin-left: 15px;padding: 5px}
+			#contatos div p{font-size: 12pt;text-indent: 10px}
+			
+		
 
 			#menu{margin-left: 5px;}
 			#menu ul {width: 100%; margin-left: -3%; margin-top: 20%;}
@@ -103,13 +112,35 @@
 		}
 
 
-		/*TABLET*/
+		/**************TABLET**********************/
 		@media screen and (min-width: 500px) and (max-width: 768px) {
 			#horarios{width: 80%;}
 
 
+			#quadro_avisos{margin-left: 2px;width: 100%;border: solid 5px rgb(108,108,108)}
+			#post-1{top:5px;left: 5px;}
+			#post-2{top:30px;left: 30px;}
+			#post-3{top:30px;left: 60px;}		
+			#post-4{top:-400px;left: 130px;}
+			.post-it{width: 30%; height: 30%; font-size: 15pt;}
+
 		}
-		/*DESKTOP*/
+		/**************laptop**********************/		
+		@media screen and (min-width: 768px) and (max-width: 1024px) {
+			
+			#quadro_avisos{margin-left: 2px;width: 100%;border: solid 5px rgb(108,108,108)}
+			#post-1{top:5px;left: 5px;}
+			#post-2{top:30px;left: 30px;}
+			#post-3{top:30px;left: 560px;}		
+			#post-4{top:-400px;left: 330px;}
+			.post-it{width: 20%; height: 30%; font-size: 15pt;}
+
+
+
+
+
+		
+		/**************DESKTOP**********************/
 		@media screen and (min-width: 1500px) and (max-width: 2700px) {
 			#horarios{width: 80%;}
 			h1{font-size: 100pt; }
@@ -118,3 +149,12 @@
 			#horarios p{ font-size: 30pt;}
 			#horarios h2{font-size: 50pt;}
 			#horarios h3{font-size: 30pt;}
+
+			#quadro_avisos{margin-left: 2px;width: 100%;border: solid 5px rgb(108,108,108)}
+			#post-1{top:5px;left: 5px;}
+			#post-2{top:30px;left: 30px;}
+			#post-3{top:30px;left: 60px;}		
+			#post-4{top:-400px;left: 130px;}
+			.post-it{width: 20%; height: 30%; font-size: 15pt;}
+
+			
