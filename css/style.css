@@ -115,7 +115,7 @@
 		/**************TABLET**********************/
 		@media screen and (min-width: 500px) and (max-width: 768px) {
 			#horarios{width: 80%;}
-			.figuras{opacity: 1;}
+			body{background-color: rgba(128,128,128,0.7);}
 			#figuras_saopedro{display: flex;justify-content:space-around; flex-wrap: wrap; padding: 15px; margin-top: 230px}
 
 			#quadro_avisos{margin-left: 2px;width: 100%;border: solid 5px rgb(108,108,108)}
