@@ -10,7 +10,7 @@
 		
 
 		/*BODY*/
-		body{background-image: url("../_imagens/igreja_fim_tarde1104x572.jpg");
+		body{background-image: url("../imagens/igreja_fim_tarde1104x572.jpg");
 		background-repeat: no-repeat; background-attachment: fixed; background-size:100%; background-color: rgba(128,128,128,1);
 		box-shadow: -2px -2px 5px 2px white;padding: 10px;margin: 10px } 
 		
