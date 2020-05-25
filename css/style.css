@@ -11,7 +11,7 @@
 
 		/*BODY*/
 		body{background-image: url("../imagens/igreja_fim_tarde1104x572.jpg");
-		background-repeat: no-repeat; background-attachment: fixed; background-size:100%; background-color: rgba(128,128,128,1);
+		background-repeat: no-repeat; background-attachment: fixed; background-size:100%; background-color: black;
 		box-shadow: -2px -2px 5px 2px white;padding: 10px;margin: 10px } 
 		
 		section{display: flex; flex-direction: column;}
@@ -116,6 +116,7 @@
 		@media screen and (min-width: 500px) and (max-width: 768px) {
 			#horarios{width: 80%;}
 
+			#figuras_saopedro{display: flex;justify-content:space-around; flex-wrap: wrap; padding: 15px; margin-top: 230px}
 
 			#quadro_avisos{margin-left: 2px;width: 100%;border: solid 5px rgb(108,108,108)}
 			#post-1{top:5px;left: 5px;}
