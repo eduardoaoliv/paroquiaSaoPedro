@@ -91,8 +91,8 @@
 
 			/*CONTATOS*/
 			#contatos iframe{width:100%;}
-			#contatos div{margin-left: 15px;padding: 5px}
-			#contatos div p{font-size: 12pt;text-indent: 10px}
+			#contatos div{padding: 5px;margin-left: 0px}
+			#contatos div p{font-size: 12pt;text-indent: 10px;margin-left: 0px}
 			
 		
 
@@ -111,9 +111,8 @@
 			.post-it{width: 50%; height: 30%; font-size: 15pt;}
 		}
 
-		@media screen and (orientation:; landscape){
-				#endereco{display: none;}
-		}
+
+		
 
 		/**************TABLET**********************/
 		@media screen and (min-width: 501px) and (max-width: 800px) {
