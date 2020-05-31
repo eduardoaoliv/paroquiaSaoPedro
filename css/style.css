@@ -121,7 +121,7 @@
 			.post-it{width: 50%; height: 30%; font-size: 15pt;}
 
 
-			#fotos img{width: 12vw; height: 8vh;margin:5px ;cursor: pointer; }
+			#fotos img{width: 12vw; height: 8vh;margin:8px ;cursor: pointer; }
 			#fotos img:hover{position:absolute; width: 80%;height: auto ;transition: 0s;left: 10%; top:70%; }
 
 
