@@ -84,7 +84,7 @@
 
 
 		 /********************CELULAR********************/
-		@media screen and (min-width: 0px) and (max-width: 500px)  {
+		@media screen and (min-width: 0px) and (max-width: 425px)  {
 			
 			body{background-color:black;width: 100%}
 			h1{font-size: 25pt}
@@ -131,7 +131,7 @@
 		
 
 		/**************TABLET**********************/
-		@media screen and (min-width: 501px) and (max-width: 800px) {
+		@media screen and (min-width: 426px) and (max-width: 800px) {
 			#horarios{width: 80%;}
 			body{background-color: rgba(128,128,128,0.7);}
 			#figuras_saopedro{display: flex;justify-content:space-around; flex-wrap: wrap; padding: 15px; margin-top: 230px}
@@ -146,6 +146,7 @@
 			#contatos iframe{width:100%;}
 			#contatos div{margin-left: 20px;padding: 5px}
 			#contatos div p{font-size: 12pt;text-indent: 10px}
+
 
 			#fotos img{width: 8vw; height: 10vh;margin:8px ;cursor: pointer; }
 			#fotos img:hover{position:absolute; width: 50%;height: auto ;transition: 0s;left: 25%; top:75%; }
