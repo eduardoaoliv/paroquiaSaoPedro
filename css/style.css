@@ -127,7 +127,7 @@
 
 		}
 
-
+		
 		
 
 		/**************TABLET**********************/
@@ -147,8 +147,8 @@
 			#contatos div{margin-left: 20px;padding: 5px}
 			#contatos div p{font-size: 12pt;text-indent: 10px}
 
-			#fotos img{width: 7vw; height: 9vh;margin:5px ;cursor: pointer; }
-			#fotos img:hover{position:absolute; width: 50%;height: auto ;transition: 0s;left: 25%; top:53%; }
+			#fotos img{width: 8vw; height: 10vh;margin:8px ;cursor: pointer; }
+			#fotos img:hover{position:absolute; width: 50%;height: auto ;transition: 0s;left: 25%; top:75%; }
 
 			
 
