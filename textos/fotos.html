@@ -36,18 +36,32 @@
 <!--<img src="../imagens/img_1.jpg">
 <img src="../imagens/img_2.jpg">
 <img src="../imagens/img_3.jpg">-->
-<img src="../imagens/img_4.jpg">
-<img src="../imagens/img_5.jpg">
-<img src="../imagens/img_6.jpg">
-<img src="../imagens/img_7.jpg">
-<img src="../imagens/img_8.jpg">
-<img src="../imagens/img_9.jpg">
-<img src="../imagens/img_10.jpg">
-<img src="../imagens/img_11.jpg">
+<img src="../imagens/img_4.jpg" onclick="mudafoto('../imagens/img_4.jpg')">
+<img src="../imagens/img_5.jpg" onclick="mudafoto('../imagens/img_5.jpg')">
+<img src="../imagens/img_6.jpg" onclick="mudafoto('../imagens/img_6.jpg')">
+<img src="../imagens/img_7.jpg" onclick="mudafoto('../imagens/img_7.jpg')">
+<img src="../imagens/img_8.jpg" onclick="mudafoto('../imagens/img_8.jpg')">
+<img src="../imagens/img_9.jpg" onclick="mudafoto('../imagens/img_9.jpg')">
+<img src="../imagens/img_10.jpg" onclick="mudafoto('../imagens/img_10.jpg')">
+<img src="../imagens/img_11.jpg" onclick="mudafoto('../imagens/img_11.jpg')">
+
+
 
 </div>
+<img id="fotopadrao"  src="../imagens/img_4.jpg" onclick="invisivel()">
 
 </section>
+
+<script>
+	
+	function mudafoto(foto){
+		document.getElementById("fotopadrao").style.display="inline";
+		document.getElementById("fotopadrao").src=foto;
+	}
+	function invisivel(){
+		document.getElementById("fotopadrao").style.display="none";
+	}
+</script>
 
 
 

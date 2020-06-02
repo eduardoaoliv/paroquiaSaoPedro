@@ -75,12 +75,14 @@
 
 		/*PAGINA_FOTOS*/
 		#fotos{flex: 1;padding: 5px 5px 5px 5px;align-self: center; background-color: rgba(12,12,12,0.7);
-		box-shadow: 10px 10px 100px 10px rgb(15,177,255); width: 90vw;min-height: 80vh; border: solid 1px rgb(15,177,255)}
+		box-shadow: 10px 10px 100px 10px rgb(15,177,255); width: 90vw;min-height: 90vh; border: solid 1px rgb(15,177,255)}
 		
 		#fotos p{line-height: normal;text-align: justify;text-indent: 10px; color: white; font-size: 15pt;  margin-left: 15px;}
 		#fotos img{width: 5vw; height: 12vh;margin:5px ;cursor: pointer; }
-		#fotos img:hover{position:absolute; width: 40%;height: auto ;transition: 0s;left: 30%; top:40%; }
-
+		/*#fotos img:hover{position:absolute; width: 40%;height: auto ;transition: 0s;left: 30%; top:40%; }*/
+		#fotopadrao{position:absolute; width: 40%;height: auto ;transition: 0s;left: 30%; top:45%; border: 10px;
+		border:0.6vw solid white;border-bottom: 8vh solid white;}
+	
 
 
 		 /********************CELULAR********************/
@@ -122,8 +124,9 @@
 
 
 			#fotos img{width: 12vw; height: 8vh;margin:8px ;cursor: pointer; }
-			#fotos img:hover{position:absolute; width: 80%;height: auto ;transition: 0s;left: 10%; top:70%; }
-
+			/*#fotos img:hover{position:absolute; width: 80%;height: auto ;transition: 0s;left: 10%; top:70%; }*/
+			#fotopadrao{position:absolute; width: 80%;height: auto ;transition: 0s;left: 13%; top:65%;border: 10px;
+			border:0.6vw solid white;border-bottom: 8vh solid white; }
 
 		}
 
@@ -149,11 +152,14 @@
 
 
 			#fotos img{width: 8vw; height: 10vh;margin:8px ;cursor: pointer; }
-			#fotos img:hover{position:absolute; width: 50%;height: auto ;transition: 0s;left: 25%; top:75%; }
-
+			/*#fotos img:hover{position:absolute; width: 50%;height: auto ;transition:0s; left: 25%; top:75%; }*/
+			#fotopadrao{position:absolute; width: 50%;height: auto ;transition:0s; left: 25%; top:52%;border: 10px;
+			border:0.6vw solid white;border-bottom: 8vh solid white; }
 			
-
 		}
+
+		
+
 		/**************laptop**********************/		
 		@media screen and (min-width: 801px) and (max-width: 1024px) {
 			
